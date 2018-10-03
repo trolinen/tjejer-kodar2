@@ -1,0 +1,63 @@
+body {
+background-image: url(greenery-background2.jpg);
+background-position: center;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+h1 {
+  margin-bottom: 5px;
+  font-weight: normal;
+  letter-spacing: 5px
+}
+h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+h3 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.MainBody {
+  margin-top: 2px;
+
+}
+.Suggestions {
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+.Inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.AddButton {
+  font-size: 12px;
+}
+.Choose {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ChooseButton {
+  font-size: 17px;
+  width: 150px;
+}
+button {
+  background-color: #648122;
+  color: white;
+  border-color: white;
+  border-width: medium;
+}
