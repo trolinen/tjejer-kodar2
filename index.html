@@ -15,15 +15,30 @@
     <div class="Suggestions">
       Dina förslag (lägg till hur många du vill):
       <div class="Inputs">
-      <input placeholder="Namnförslag">
+        <input placeholder="Namnförslag">
       </div>
       <div class="Add">
-      <button class="AddButton">Lägg till</button>
+        <button class="AddButton">Lägg till</button>
       </div>
     </div>
   <p>
-  <div class="Choose">
+    <div class="ResultSection"></div>
+    <div class="Choose">
     <button class="ChooseButton">Välj åt mig</button>
   </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+  $(function)() {
+    $('.ResultSection').hide()
+
+    var add_option = function() {
+      $('.Inputs').append('<input></input>')
+    }
+
+    $('.AddButton').click(add_option)
+  })
+  </script>
 </body>
 </html>
